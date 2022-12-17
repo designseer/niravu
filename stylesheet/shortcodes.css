@@ -29,6 +29,7 @@
 .bg-white {
     background-color: white !important;
 }
+
 /* column custom 
 ---------------------------------------*/
 .item-three-column,
@@ -42,6 +43,9 @@
 .item-four-column {
     position: relative;
     width: 25%;
+}
+.py-30 {
+    padding: 30px 0;
 }
 
 /* header style 1 
@@ -1060,8 +1064,9 @@
     font-family: 'icomoon';
 }
 .address-box .contact-phone::before {
-    content: '\e90f';
-    font-family: 'icomoon';
+    content: '\f095';
+    font-family: 'FontAwesome';
+    font-size: 28px;
 }
 .address-box .contact-mail::before {
     content: '\e910';
@@ -2274,4 +2279,8 @@ textarea {
 }
 .footer-style-2 .footer-bottom .copyright-text {
     color: var(--primary-color2);
+}
+.mobile-sizing-30 {
+    line-height: 22px;
+    font-size: 14px;    
 }

@@ -527,7 +527,9 @@ h6 {
 .mg-top-30 {
     margin-top: 30px;
 }
-
+.mg-top-40 {
+    margin-top: 40px;
+}
 
 /* link style 1 
 ---------------------------------------------------------------*/
@@ -962,7 +964,10 @@ a:focus {
     line-height: 30px;
     letter-spacing: 0px;
 }
-
+.heading-16px-rubik.text-sm {
+    font-size: 14px;
+    line-height: 26px;
+}
 .text-decs {
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
@@ -2497,7 +2502,7 @@ article.post .content-post .more-link a:hover {
     color: #525368;
 }
 
-.footer .footer-contact-info .location,
+.footer .footer-contact-info .location, .location,
 .phone-call,
 .email {
     line-height: 122px;
@@ -2539,7 +2544,7 @@ article.post .content-post .more-link a:hover {
 }
 
 .footer .content-location {
-    padding: 31px 14px 0 14px
+    padding: 10px 2px 0 4px;
 }
 
 .footer .icon-location::before {
@@ -3229,4 +3234,7 @@ left: 0;
 }
 .copyright-text span {
     display: block;
+}
+.text-white {
+    color:#fff;
 }

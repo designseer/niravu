@@ -343,7 +343,10 @@
 
 /* Smaller than standard 992 */
 @media only screen and (max-width: 991px) {
-
+  .page-title-home1,
+.page-title-home2 {
+    height: 70vh;
+}
   .footer-style-2 .list-footer,
   .flat-contact .contact-address {
     width: 100% !important;
@@ -616,7 +619,7 @@
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
   /* reset padding */
-
+  
   .features-home2 .features-home2-box,
   .flat-news-home2 .button-news,
   .flat-news-home2 .flat-news-box,
@@ -978,6 +981,13 @@
 
   .about-2nd .content-right {
     padding: 98px 0 160px 5%;
+  }
+
+  .footer-contact-info {
+    flex-direction: column;
+  }
+  .list-menu-1 li {
+	  line-height: 24px;
   }
 
   .flat-case-study .list-box-profolio .image-profolio .active,
