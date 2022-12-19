@@ -571,8 +571,8 @@
     var retinaLogos = function() {
         var retina = window.devicePixelRatio > 1 ? true : false;
           if(retina) {
-              $('.logo-header').find('img').attr( {src:'./icon/logo.jpg',width:'172.7',height:'59.96'} );
-              $('.logo-footer-style2').find('img').attr( {src:'./icon/logo.jpg',width:'172.7',height:'59.96'} );
+              $('.logo-header').find('img').attr( {src:'./assets/icon/logo.jpg',width:'172.7',height:'59.96'} );
+              $('.logo-footer-style2').find('img').attr( {src:'./assets/icon/logo.jpg',width:'172.7',height:'59.96'} );
               $('.logo-footer').find('img').attr( {src:'./icon/logo-light.jpg',width:'172.7',height:'59.96'} );  
           }
       };       
