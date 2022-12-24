@@ -170,7 +170,7 @@ var RevSlider = function() {
                     },
                     responsiveLevels:[2220,1183,992,750],
                     gridwidth:[1170,970,740,290],
-                    gridheight: [950,900,700,700],
+                    gridheight: [950,900,500,300],
                     lazyType: "smart",                    
                     shadow: 0,
                     spinner: "off",

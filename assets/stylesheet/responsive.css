@@ -345,7 +345,7 @@
 @media only screen and (max-width: 991px) {
   .page-title-home1,
 .page-title-home2 {
-    height: 70vh;
+    height: 500px;
 }
   .footer-style-2 .list-footer,
   .flat-contact .contact-address {
@@ -619,7 +619,18 @@
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
   /* reset padding */
-  
+  .page-title-home1,
+  .page-title-home2 {
+      height: 300px;
+  }
+  .button>.btn,
+.btn-home,
+.btn2 {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 18px;
+    border-radius: 12px;
+}
   .features-home2 .features-home2-box,
   .flat-news-home2 .button-news,
   .flat-news-home2 .flat-news-box,
