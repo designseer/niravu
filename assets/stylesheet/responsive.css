@@ -1000,7 +1000,9 @@
   .list-menu-1 li {
 	  line-height: 24px;
   }
-
+  .section-heading-rubik-size20.text-left {
+    text-align: center;
+  }
   .flat-case-study .list-box-profolio .image-profolio .active,
    .flat-case-study .list-box-profolio .image-profolio:hover .profolio-show {
     height: 55%;
