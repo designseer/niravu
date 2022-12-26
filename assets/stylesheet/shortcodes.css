@@ -47,7 +47,9 @@
 .py-30 {
     padding: 30px 0;
 }
-
+.w-50 {
+    width: 50%;
+}
 /* header style 1 
 ---------------------------------------*/
 .top-header1 .top-location,

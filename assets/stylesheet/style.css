@@ -2594,8 +2594,9 @@ article.post .content-post .more-link a:hover {
 
 /* list-footer */
 
+
 .list-footer {
-    padding-top: 144px;
+    padding-top: 84px;
     margin-left: -0.7%;
     display: flex;
     display: -webkit-box;
