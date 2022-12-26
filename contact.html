@@ -207,6 +207,11 @@
                                     <label for="message" class="heading-features">Your message*</label>
                                     <textarea name="message" class="input-contact-message" id="message" placeholder="Your Message"></textarea>
                                 </div>
+                                <div class="form-group">
+                                    <div class="g-recaptcha" data-sitekey="6Les_LUUAAAAAOwAecAV2bvGOrePoZVQPLDOJcs_" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                                    <input class="form-control hide" data-recaptcha="true" required data-error="Please complete the Captcha">
+                                    <div class="help-block with-errors"></div>
+                                </div>
                                 <div class="button">
                                     <button type="submit" class=" btn btn-left">Send message</button>
                                 </div>
@@ -400,8 +405,8 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIEU6OT3xqCksCetQeNLIPps6-AYrhq-s&region=GB"></script>
     <script type="text/javascript" src="assets/javascript/wow.min.js"></script>
     <script type="text/javascript" src="assets/javascript/main.js"></script>
-<script type="text/javascript" src="assets/javascript/jquery.magnific-popup.min.js"></script>
-
+    <script type="text/javascript" src="assets/javascript/jquery.magnific-popup.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </body>
 
 </html>
